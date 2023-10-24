@@ -17,3 +17,29 @@ Based on our analysis, we found that the Random Forest model and the Tuned Rando
 
 **Next Steps**:
 Moving forward, it's important to implement these models in a real-world environment. SyriaTel should integrate them into their customer management systems to make real-time predictions. Additionally, they can further improve the models by collecting more data and refining their features. Continuous monitoring of model performance is also essential to ensure they remain effective in the ever-changing telecommunications landscape.
+
+**Features that are Important in Predicting Target Variable**
+From the feature importance analysis, we can infer that several features related to call usage, such as total day charge and total day minutes, are highly influential in predicting churn. Additionally, the number of customer service calls appears to be a critical factor contributing to customer churn. This insight suggests the importance of focusing on these aspects to reduce churn rates.
+
+	total day charge: 0.1368
+	total day minutes: 0.1346
+	customer service calls: 0.1180
+	international plan: 0.0810
+	total eve minutes: 0.0676
+	total eve charge: 0.0619
+	total intl calls: 0.0491
+	total intl minutes: 0.0455
+	total intl charge: 0.0443
+	total night charge: 0.0391
+	total night minutes: 0.0377
+	total day calls: 0.0332
+	total night calls: 0.0330
+	account length: 0.0315
+	number vmail messages: 0.0294
+	total eve calls: 0.0289
+	voice mail plan: 0.0200
+	area code: 0.0085
+
+![image](https://github.com/Ochieng40/Moringa_Phase_3_Project/assets/110474885/bc1079c6-d84f-436c-8f7e-de856b539c6b)
+
+
